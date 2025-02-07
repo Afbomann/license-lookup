@@ -1,7 +1,8 @@
 ---
 import Layout from "../layouts/Layout.astro"
+import Main from "../components/Main.vue"
 ---
 
-<Layout>
-	<h2>License Lookup</h2>
+<Layout description="Lookup a license number and see the vehicle's information.">
+    <Main client:only={true}/>
 </Layout>
