@@ -232,7 +232,9 @@ export interface AkselDekkOgFelg {
 }
 
 export interface Dimensjoner {
-  bredde: number;
+  bredde?: number;
+  hoyde?: number;
+  lengde?: number;
 }
 
 export interface Generelt {
