@@ -43,7 +43,7 @@ async function search(input: string) {
     class="text-base lg:text-lg text-center mt-[3dvh] text-gray-500"
     v-if="loading || noResult"
   >
-    {{ loading ? "Laster..." : "Ingen resultater." }}
+    {{ loading ? "Loading..." : "No results." }}
   </p>
 
   <VehicleInformation
