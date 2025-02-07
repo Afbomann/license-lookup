@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import "../assets/globals.css";
 import { ref } from "vue";
 import SearchBar from "./SearchBar.vue";
 import VehicleInformation from "./VehicleInformation.vue";
